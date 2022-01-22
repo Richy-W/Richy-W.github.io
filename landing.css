@@ -1,1 +1,7 @@
-.navlink {list-style: none;}
+.navlink {
+    list-style: none;
+}
+
+.wrapper {
+    margin: auto;
+}
