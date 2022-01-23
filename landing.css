@@ -2,6 +2,20 @@
     list-style: none;
 }
 
-.wrapper {
+#wrapper {
     margin: auto;
+    width: 80%;
+	min-width: 700px;
+	max-width: 1024px;
+    background: url(images/WrenTartan.jpg);
+    background-repeat: repeat;
+}
+
+mai {
+    margin-left: 40%;
+}
+
+header, nav, main, footer {
+    display: block;
+    margin-left: 40%;
 }
