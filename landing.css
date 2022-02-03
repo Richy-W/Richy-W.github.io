@@ -1,5 +1,7 @@
-.navlink {
-    list-style: none;
+
+
+body {
+    background-color: black;
 }
 
 #wrapper {
@@ -7,15 +9,30 @@
     width: 80%;
 	min-width: 700px;
 	max-width: 1024px;
-    background: url(images/WrenTartan.jpg);
-    background-repeat: repeat;
+}
+nav ul {
+    display: block;
+    float: left;
+    list-style: none;
+    padding: 10px;
+    margin-left: 30%;
+    background-color: #50c878;
+    border-radius: 15%;  
+    font-size: large;
+    font-weight: bold;
 }
 
-mai {
+main {
     margin-left: 40%;
 }
 
-header, nav, main, footer {
+.headshot {
+    border-radius: 50%;
+}
+
+header, main, footer {
     display: block;
     margin-left: 40%;
+    color: #50c878;
+    
 }
