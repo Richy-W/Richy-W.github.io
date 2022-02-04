@@ -16,24 +16,27 @@ nav ul {
     float: left;
     list-style: none;
     padding: 10px;
-    margin-left: 30%;
+    margin-left: 20%;
     background-color: #50c878;
-    border-radius: 15%;  
+    border-radius: 25%;  
     font-size: large;
     font-weight: bold;
 }
 
 main {
-    margin-left: 40%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .headshot {
     border-radius: 50%;
+    margin: 10%;
 }
 
 header, main, footer {
     display: block;
     margin-left: 40%;
+    margin-bottom: 5%;
     color: #50c878;
     
 }
