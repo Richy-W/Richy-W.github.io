@@ -57,7 +57,7 @@ header, main, footer {
        display: inline;
        align-items: center;
        margin: 0.5%;
-       justify-content: center;
+       text-align: center;
     }
 
     nav ul {
@@ -65,6 +65,7 @@ header, main, footer {
         border-radius: 0%;
         margin-left: 0%;
         float: none;
+        text-align: center;
     }
 
     header, main, footer {
