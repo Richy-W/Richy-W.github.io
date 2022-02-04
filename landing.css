@@ -10,6 +10,7 @@ body {
 	min-width: 700px;
 	max-width: 1024px;
 }
+
 nav ul {
     display: block;
     float: left;
@@ -35,4 +36,39 @@ header, main, footer {
     margin-left: 40%;
     color: #50c878;
     
+}
+
+
+/*-------------------------------------------------------------
+                 Tablet Media Query
+-------------------------------------------------------------*/
+
+@media only screen and (max-width:1024px) {
+
+}
+
+
+/*-------------------------------------------------------------
+                 Smartphone Media Query
+-------------------------------------------------------------*/
+
+@media only screen and (max-width:768px) {
+    nav ul li {
+       display: inline;
+       align-items: center;
+       margin: 2%;
+    }
+
+    nav ul {
+        display: block;
+        border-radius: 0%;
+        margin-left: 0%;
+        float: none;
+    }
+
+    main {
+        margin-left: 25%;
+    }
+
+
 }
