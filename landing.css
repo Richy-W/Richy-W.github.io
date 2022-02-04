@@ -64,10 +64,11 @@ header, main, footer {
         border-radius: 0%;
         margin-left: 0%;
         float: none;
+        justify-content: center;
     }
 
-    main {
-        margin-left: 25%;
+    header, main, footer {
+        margin-left: 10%;
     }
 
 
