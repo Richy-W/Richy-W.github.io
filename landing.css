@@ -23,6 +23,13 @@ nav ul {
     font-weight: bold;
 }
 
+nav ul li {
+    color: black;
+}
+
+h2 {
+    color: whitesmoke;
+}
 main {
     margin-left: 20%;
     margin-right: 20%;
