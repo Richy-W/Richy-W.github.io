@@ -63,6 +63,12 @@ header, main, footer {
     
 }
 
+.centered {
+    display: block;
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+
 
 /*-------------------------------------------------------------
                  Tablet Media Query

@@ -2,12 +2,25 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Richard Wren">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <link rel="stylesheet" type="text/css" href="landing.css">
+        <link rel="icon" type="image/favicon.ico" href="">
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+            </script>
+        <![endif]-->	
         <title>Rock Paper Scissors</title>
     </head>
 
     <body>
+        <header>
         <h1>Welcome to Rock, Paper, Scissors!</h1>
+    </header>
 
+    <div class="centered">
         <h2>Computer Choice: <span id="comp-choice"></span></h2>
         <h2>Your Choice: <span id="user-choice"></span></h2>
         <h2>Results: <span id="result"></span></h2>
@@ -15,6 +28,7 @@
         <button id="Rock">Rock</button>
         <button id="Paper">Paper</button>
         <button id="Scissors">Scissors</button>
+     </div>   
 
         <script src="app.js" charset="utf-8"></script>
     </body>
