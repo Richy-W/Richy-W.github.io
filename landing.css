@@ -21,10 +21,13 @@ nav ul {
     border-radius: 25%;  
     font-size: large;
     font-weight: bold;
+    position: absolute;
 }
 
 #resourcelinks ul li{
     list-style: none;
+    text-align: center;
+    
 }
 
 #resourcelinks ul li a img {
@@ -35,6 +38,7 @@ nav ul {
 #resourcelinks ul {
     background-color:  #50c878;
     border-radius: 15%;
+
 }
 
 nav ul li {
