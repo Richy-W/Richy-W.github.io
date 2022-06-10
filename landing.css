@@ -103,6 +103,11 @@ header, main, footer {
         position: sticky;
         top: 0;
     }
+    
+    nav {
+        position: sticky;
+        top: 0;
+    }
 
     header, main, footer {
         margin: auto;
