@@ -23,6 +23,14 @@ nav ul {
     font-weight: bold;
 }
 
+ul li {
+    list-style: none;
+}
+
+ol li {
+    list-style: none;
+}
+
 #resourcelinks ul li{
     list-style: none;
     text-align: center;
