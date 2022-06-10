@@ -13,12 +13,11 @@ body {
 
 nav ul {
     display: block;
-    float: left;
     list-style: none;
     padding: 10px;
     margin-left: 20%;
     background-color: #50c878;
-    border-radius: 25%;  
+    border-radius: 5px;
     font-size: large;
     font-weight: bold;
 }
@@ -30,6 +29,9 @@ ul li {
 ol li {
     list-style: none;
 }
+
+
+
 
 #resourcelinks ul li{
     list-style: none;
@@ -49,6 +51,12 @@ ol li {
 }
 
 nav ul li {
+    color: black;
+    display: inline;
+    margin-left: 15%;
+}
+
+nav a:visited {
     color: black;
 }
 
@@ -78,6 +86,10 @@ header, main, footer {
     display: block;
     margin-left: 40%;
     margin-bottom: 5%;
+}
+
+.centered button {
+    color: slategray;
 }
 
 
