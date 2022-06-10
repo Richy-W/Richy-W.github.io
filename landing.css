@@ -35,7 +35,9 @@ ol li {
     list-style: none;
 }
 
-
+#resourcelinks {
+    display: inline-block;
+}
 
 #resourcelinks ul li{
     list-style: none;
