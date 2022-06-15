@@ -5,4 +5,6 @@ It will contain a number of recorces inculding:
  1) A developer profile : index
  2) A Portfolio of works
  3) A list of recources used along my journey.
- 4) A documentation of my personal journey through the developer community (may not include blog)
+ 4) Methods of contact for Richy-W.
+
+
