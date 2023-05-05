@@ -74,6 +74,9 @@ ol li {
     border-radius: 15%;
 
 }
+#recourceslinks {
+    background-color: ;
+}
 
 nav ul li {
     color: black;
@@ -89,7 +92,7 @@ nav a:hover {
     color: #c7fad8;
 }
 
-h2 {
+h2, h3 {
     color: whitesmoke;
 }
 
@@ -125,6 +128,18 @@ header, main, footer {
 .rpsHead {
     display: block;
     margin-left: 10%;   
+}
+
+#wins {
+    color: green;
+}
+
+#lose {
+    color: red;
+}
+
+#draw {
+    color: blue;
 }
 
 /*-------------------------------------------------------------
