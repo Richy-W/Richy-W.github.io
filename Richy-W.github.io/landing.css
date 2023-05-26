@@ -1,6 +1,26 @@
+/************************************************************
 
+
+
+
+
+
+
+
+
+**********************************************************/
+
+
+h1 {
+    margin-left: 20%;
+    margin-right: 30%;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+}
 
 body {
+    justify-content: center;
     background-color: black;
 }
 
@@ -11,20 +31,37 @@ body {
 	max-width: 1024px;
 }
 
+nav {
+    position: sticky;
+    top: 0;
+}
+
 nav ul {
     display: block;
-    float: left;
     list-style: none;
     padding: 10px;
-    margin-left: 20%;
     background-color: #50c878;
-    border-radius: 25%;  
+    border-radius: 5px;
     font-size: large;
     font-weight: bold;
 }
 
+ul li {
+    list-style: none;
+}
+
+ol li {
+    list-style: none;
+}
+
+#resourcelinks {
+    display: inline-block;
+}
+
 #resourcelinks ul li{
     list-style: none;
+    text-align: center;
+    
 }
 
 #resourcelinks ul li a img {
@@ -35,19 +72,33 @@ nav ul {
 #resourcelinks ul {
     background-color:  #50c878;
     border-radius: 15%;
+
+}
+#recourceslinks {
+    background-color: ;
 }
 
 nav ul li {
     color: black;
+    display: inline;
+    margin-left: 15%;
 }
 
-h2 {
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    color: #c7fad8;
+}
+
+h2, h3 {
     color: whitesmoke;
 }
 
 main {
     margin-left: 20%;
-    margin-right: 20%;
+    margin-right: 30%;
 }
 
 .headshot {
@@ -57,12 +108,39 @@ main {
 
 header, main, footer {
     display: block;
-    margin-left: 40%;
+    margin-left: 30%;
     margin-bottom: 5%;
     color: #50c878;
+    text-align: center;
     
 }
 
+.centered {
+    display: block;
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+
+.centered button {
+    color: slategray;
+}
+
+.rpsHead {
+    display: block;
+    margin-left: 10%;   
+}
+
+#wins {
+    color: green;
+}
+
+#lose {
+    color: red;
+}
+
+#draw {
+    color: blue;
+}
 
 /*-------------------------------------------------------------
                  Tablet Media Query
@@ -91,6 +169,13 @@ header, main, footer {
         margin-left: 0%;
         float: none;
         text-align: center;
+        position: sticky;
+        top: 0;
+    }
+    
+    nav {
+        position: sticky;
+        top: 0;
     }
 
     header, main, footer {
