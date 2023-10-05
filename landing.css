@@ -1,5 +1,5 @@
 /************************************************************
-
+Authored by: Richard Wren
 
 
 
@@ -71,12 +71,9 @@ ol li {
 
 #resourcelinks ul {
     background-color:  #50c878;
-    border-radius: 15%;
+    border-radius: 75px;
+}
 
-}
-#recourceslinks {
-    background-color: ;
-}
 
 nav ul li {
     color: black;
@@ -115,6 +112,10 @@ header, main, footer {
     
 }
 
+/*-------------
+Rock, Paper Scissors
+---------------*/
+
 .centered {
     display: block;
     margin-left: 40%;
@@ -141,6 +142,35 @@ header, main, footer {
 #draw {
     color: blue;
 }
+
+/*--------------------------
+Resume
+--------------------------*/
+
+#resumeHead {
+    color: whitesmoke;
+    line-height: 30%;
+    margin: 10%;
+}
+
+#edu {
+    background-color: #50c878;
+    color: black;
+    border-radius: 50px;
+}
+
+#exp h4 {
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+#skills {
+    background-color: #50c878;
+    color: black;
+    border-radius: 50px;
+    padding: 10px;
+}
+
 
 /*-------------------------------------------------------------
                  Tablet Media Query
