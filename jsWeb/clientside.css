@@ -1,0 +1,334 @@
+/*-------------------------------------------------------------------
+Project Name: The Building Blocks of the Client-Side
+Author: Richard Wren
+version: 1.0
+last changed: 05/8/2024
+
+COLORS USED
+body:
+    background: (55, 55, 55)
+    font: (207, 207, 207)
+    Header: (0, 184, 0)
+    links: (58, 58, 207)
+    h1: (30, 200, 10)
+    h2: (30, 158, 20)
+nav:
+    background:(200, 200, 200)
+    font: (0, 0, 0)
+TYPOGRAPHY
+Header: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif
+body: Times New Roman
+links: bold
+
+--------------------------------------------------------------------*/
+
+body {
+    background-color: rgb(55, 55, 55);
+    color: rgb(207, 207, 207);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+header {
+color: #50c878;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 200%;
+text-align: center;
+
+}
+
+footer {
+font-size: 75%;
+margin-top: 150px;
+}
+
+ul li {
+    list-style: none;
+}
+
+/*-----------------------
+NAV BARS
+-------------------*/
+nav, #bottomnav {
+display: block;   
+list-style: none;
+background-color: rgb(200, 200, 200);
+text-align: center;
+}
+
+nav ul li, #bottomnav li {
+    display: inline-block;
+}
+
+nav a {
+margin: 5px;
+padding: 10px;
+color: black;
+
+}
+
+nav a:visited {
+color: black;
+}
+
+#bottomnav a {
+color: black;
+margin: 5px;
+}
+
+/*------------------------
+Headers and links
+-------------------*/
+h1 {
+color: rgb(30, 200, 10);
+}
+
+h2 {
+color: rgb(30, 150, 20);
+}
+
+a {
+color: rgb(58, 58, 207);
+font-weight: bold;
+}
+
+/*------------------------
+Fuction.html
+------------------------*/
+
+input, label {
+    display: inline-block;
+
+}
+
+/*--------------------------------
+Forms Page
+--------------------------------*/
+
+#italic {
+    font-style: italic;
+}
+
+section#summary {
+    -webkit-flex: 1 1 50px;
+    flex: 1 1 50px;
+    padding: 20px 0px 10px 20px;
+ }
+ 
+ section#summary h1 {
+    font-size: 1.8em;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-weight: normal;
+    margin-bottom: 10px;
+ }
+ 
+ section#summary h2 {
+    font-size: 1.25em;
+    font-weight: normal;
+ }
+ 
+ section#summary h3 {
+    font-size: 1em;
+    font-weight: normal; 
+    margin-bottom: 20px;  
+ }
+ 
+ section#summary > img {
+    display: block;
+    width: 50%;
+    margin: 0px auto;
+ }
+ 
+ section#summary p {
+    font-size: 1.2em;
+    text-align: justify;
+ }
+ 
+ section#orderSection {
+    -webkit-flex: 1 1 200px;
+    flex: 1 1 200px;
+    margin: 20px;
+ }
+    
+ /* Order Table Styles */
+ 
+ table#orderTable {
+    margin: 15px;
+    width: 95%;
+    border-collapse: collapse;
+    font-size: 1.3em;
+ }
+ 
+ form#orderForm fieldset {
+    border: none;
+    margin-left: -10px;
+ }
+ 
+ form#orderForm input[type="text"] {
+    background-color: rgba(240, 233, 222, 0.5);
+ }
+ 
+ table#orderTable caption {
+    font-size: 1.6em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-align: left;
+    caption-side: top;
+    margin-bottom: 20px;
+ }
+ 
+ 
+ table#orderTable td {
+    height: 40px;
+    vertical-align: top;
+ }
+ 
+ 
+ form#orderForm input[type="text"] {
+    color: rgb(101, 101, 101);
+ }
+ 
+ form#orderForm select {
+    display: inline-block;
+    margin-left: 10px;
+    color: rgb(101, 101, 101);
+ }
+ 
+ table#orderTable tr:first-of-type {
+    border-bottom: 1px solid rgb(151, 151, 151);
+ }
+ 
+ 
+ 
+ table#orderTable tr:first-of-type label {
+    font-size: 1.15em;
+    line-height: 2;
+ }
+ 
+ table#orderTable tr:first-of-type select {
+    font-size: 1em;
+ }
+ 
+ table#orderTable tr td:last-of-type input {
+    text-align: right;
+    border: none;
+    font-size: 1em;
+ }
+ 
+ table#orderTable tr:nth-of-type(2) td {
+    vertical-align: bottom;
+    padding-bottom: 20px;
+ }
+ 
+ table#orderTable tr:nth-of-type(2) {
+    border-bottom: 1px solid rgb(151, 151, 151);
+ }
+ 
+ table#orderTable tr:nth-of-type(1) td, table#orderTable tr:nth-of-type(3) td {
+    padding-top: 15px;
+ }
+ 
+ table#orderTable tr:nth-of-type(4) td {
+    border-bottom: 6px double rgb(151, 151, 151);
+ }
+ 
+ table#orderTable tr:last-of-type td {
+    padding-top: 15px;
+ }
+ 
+ table#orderTable td.rightA {
+    text-align: right;
+    padding-right: 10px;
+ }
+ 
+ table#orderTable legend {
+    font-size: 1.2em;
+    line-height: 2;
+ }
+ form#orderForm fieldset label {
+    line-height: 2;
+    display: inline-block;
+ }
+ 
+ form#orderForm input#buttonAdd {
+    display: block;
+    width: 120px;
+    height: 35px;
+    margin: 15px auto;
+    background-color: rgba(232, 218, 201, 0.8);
+    font-size: 1.3em;
+    border-radius: 20px;
+ }
+
+ /*-----------------------------------------
+Strings page
+ -----------------------------------------*/
+
+#guessL {
+   margin-left: 38%;
+}
+
+/*-----------------------------------------
+State page buttons
+ -----------------------------------------*/
+
+ #text-size-selectors {
+   position: fixed;
+   top: 10px; 
+   right: 10px; 
+   z-index: 999; 
+   padding: 10px; 
+}
+
+#text-size-selectors h3 {
+   margin-top: 0;
+}
+
+#text-size-selectors button {
+   margin-right: 5px; 
+}
+
+#size125 {
+   color: black;
+}
+
+#size100 {
+   color: red;
+}
+
+#size80 {
+   color: black;
+}
+
+/*-----------------------------------------
+touch page highlighter 
+-----------------------------------------*/
+
+.highlight {
+   background-color: yellow;
+   color: black;
+}
+
+/*-----------------------------------
+jQuery CSS
+--------------------------------*/
+
+.ui-accordion-content {
+   background-color: #7fd;
+   color: rgb(55, 55, 55);
+   border-radius: 20px;
+   border-style: groove;
+   display: inline-block;
+}
+
+/*-----------------------------------
+AJAX CSS
+--------------------------------*/
+
+#map {
+   height: 500px;
+   width: 500px;
+   margin: auto;
+
+}

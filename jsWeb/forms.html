@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="author" content="Richard Wren">
+	<meta name="author" content="04/21/2024">
+	<meta name="description" content="Learn the Client-Side">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Building, Learning, Client-Side">
+	<link rel="stylesheet" type="text/css" href="clientside.css">
+	<link rel="icon" type="image/favicon.ico" href="images/JSlogo2.ico">
+	<title>Learning the Client-Side</title>
+	<script src="modernizr.custom.65897.js"></script>
+	<script src="js06a.js" defer></script>
+	<!---<script src="initialCSP.js"></script> -->
+</head>
+
+<body>
+
+<!-- ******* page header ****** -->
+
+		<header id="header">
+			<!--<script>displayHeader();</script> -->
+		</header><br>
+
+<!-- ******* Navigation ******* -->
+		<nav id="nav">
+			<!--<script>displayNav();</script>-->
+		</nav>
+
+<!-- ******* main content area ****** -->
+		<main>
+
+			<img id="weatherLamp" src="images/WeatherLamp.jpg" alt="3d printed weather lamp">
+			<section id="summary">
+				<h1>3d Printed Weather Lamp</h1>
+				<p>3D printed Lamps from <span id="italic">Wren Technological Solutions&copy;</span> will shine a light on the days forcast.
+				This lamp will tell the time, temperture, and weather condition. The sun changes color based on the time of day. The cloud will changes 
+				color with the weather condition. The base will shift from blue to red to act as a temperture gage. Please act now to get this magnificent clock while supplies last.
+				</p>
+				<p><span id="italic">This is a demo only.</span></p>
+				
+			 </section>
+
+
+			<section id="orderSection">
+				<form id="orderForm" name="orderForm" method="get" action="ordersubmit.html">
+				  
+				  <table id="orderTable">
+					 <caption>Weather Lamp Order Form</caption>
+
+					<tr>
+						<td>
+							<label for="myFName">*First Name:</label>
+						<input type="text" id="myFName" name="myFName" accesskey="F" tabindex="1" class="required">
+						</td>
+						<td>
+							<label for="myLName">*Last Name:</label>
+							<input type="text" id="myLName" name="myLName" accesskey="L" tabindex="2" class="required">
+						</td>
+						<td>
+							<label for="myEmail">*Email:</label>
+							<input type="email" id="myEmail" name="myEmail" accesskey="E" tabindex="3" class="required email">
+						</td>
+					</tr>
+					 <tr>
+						<td>
+						   <label for="model">Model</label>
+						   <select name="model" id="model">
+							  <option value="50.32">Base Model ($50.39)</option>
+							  <option value="75.50" selected>Delux edition with Height extender ($75.50)</option>
+							  <option value="100.87"> Delux edition XL ($100.87)</option>
+						   </select>   
+						   <input type="hidden" id="modelName" name="modelName" />
+						</td>
+						<td class="rightA">
+						   <label for="qty">Qty</label>
+						   <select name="qty" id="qty">
+							  <option value="1" selected>1</option>
+							  <option value="2">2</option><option value="3">3</option>
+							  <option value="4">4</option><option value="5">5</option><option value="6">6</option>
+							  <option value="7">7</option><option value="8">8</option><option value="9">9</option>
+							  <option value="10">10</option>
+						   </select>   
+						</td>                 
+						<td>
+						   <input type="text" name="modelCost" id="modelCost" size="10" readonly />
+						</td>
+					 </tr>
+					 <tr>
+						<td colspan="2"> 
+						   <fieldset>
+							  <legend>VIP Access</legend>
+							  <input type="radio" id="plan_0" name="plan" value="0" checked /> <label for="plan_0">Base Support Included ($0.00)</label><br>
+							  <input type="radio" id="plan_1" name="plan" value="15.95" /> <label for="plan_1">Level 1 - Premium Servicing ($15.95)</label><br>
+							  <input type="radio" id="plan_2" name="plan" value="30.99" /> <label for="plan_2">Level 2 - Premium Servicing + ($30.99)</label><br>
+							  <input type="radio" id="plan_3" name="plan" value="100.27"  /> <label for="plan_3">Level 3 - 24 Hour Support ($100.27)</label>
+						   </fieldset>
+						   <input type="hidden" id="planName" name="planName" />
+						</td>
+						<td>
+						   <input type="text" name="planCost" id="planCost" size="10" readonly />
+						</td>
+					 </tr>        
+					 <tr>
+						<td colspan="2" class="rightA">Subtotal</td>
+						<td class="outcell">
+						   <input type="text" name="subtotal" id="subtotal" size="10" readonly />
+						</td>
+					 </tr>
+		  
+					 <tr>
+						<td colspan="2" class="rightA">Tax (5%)</td>
+						<td>
+						   <input type="text" name="salesTax" id="salesTax" size="10" readonly />
+						</td>
+					 </tr>
+		  
+					 <tr>
+						<td colspan="2" class="rightA">TOTAL</td>
+						<td>
+						   <input type="text" name="totalCost" id="totalCost" size="10" readonly />
+						</td>
+					 </tr>
+				  </table>
+				  <input type="submit" id="buttonAdd" value="add to cart" />
+		  
+				</form>
+			 </section>
+
+		</main>
+
+<!-- *********** footer ************ -->		
+
+		<footer id="footer">
+			<!--<script>displayFooter();</script> -->
+		</footer>
+
+	<script src="CSP.js"></script>
+</body>

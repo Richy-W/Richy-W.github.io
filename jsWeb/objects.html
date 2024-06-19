@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="author" content="Richard Wren">
+	<meta name="author" content="04/24/2024">
+	<meta name="description" content="Learn the Client-Side">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Building, Learning, Client-Side">
+	<link rel="stylesheet" type="text/css" href="clientside.css">
+	<link rel="stylesheet" type="text/css" href="objects.css">
+	<link rel="icon" type="image/favicon.ico" href="images/JSlogo2.ico">
+	<title>Learning the Client-Side</title>
+	<script src="modernizr.custom.65897.js"></script>
+	<script src="objects.js" defer></script>
+	<!---<script src="initialCSP.js"></script> -->
+</head>
+
+<body>
+
+<!-- ******* page header ****** -->
+
+		<header id="header">
+			<!--<script>displayHeader();</script> -->
+		</header><br>
+
+<!-- ******* Navigation ******* -->
+		<nav id="nav">
+			<!--<script>displayNav();</script>-->
+		</nav>
+
+<!-- ******* main content area ****** -->
+		<main>
+
+			<div class="imgGallery"> 
+				<h1>Photo Gallery: Ordering Form </h1>  
+				<p><img src="images/imgOne.jpg" width="250" height="175" alt="imgOne" /><br />
+					imgOne</p>
+				<p><img src="images/imgTwo.jpg" width="250" height="175" alt="imgTwo" /><br />
+					imgTwo</p>
+
+					<p><span id="italic">This oderform is a non-functional demo only</span></p>
+			  </div>
+		  
+			  <form id="formPhoto" name="formPhoto">
+				 <fieldset>
+					<legend>Customer Information</legend>
+					<label for="buyer" class="required">Name:</label>
+					<input type="text" id="buyer" name="buyer"  />
+					<label class="error" id="errorName">*Required Field&nbsp;&nbsp;</label><br/>
+					
+					<label for="email" class="required">Email:</label><input type="text" id="email" name="email"  />
+					<label class="error" id="errorEmail">*Required Field&nbsp;&nbsp;</label>
+					<br class="clearboth" />
+				 </fieldset> <br>
+		  
+				
+				 <fieldset>
+					 <legend>Select Image</legend>
+					 <label class="titleLabel" for="imgOne">imageOne</label>
+					 <input type="radio" id="imgOne" name="fileName" value="ImgOne.jpg"/>
+		  
+					 <label class="titleLabel" for="imgTwo">imgTwo</label>
+					 <input type="radio" id="imgTwo" name="fileName"  value="imgTwo.jpg" />
+					 
+					 <label id="errorFilename" class="error">&nbsp;&nbsp;&nbsp;&nbsp;*Select an image</label> 
+				  </fieldset><br>
+		   
+		  
+				   <fieldset>
+						<legend>Order Information</legend>
+							 <div class="lefttwo">
+								 <label for="pictureOne">4-wallets ($10)</label>
+								 <input type="radio" id="pictureOne" name="size" value="4-wallets"/>
+								 
+								 <label for="pictureTwo">2-4x6 ($10)</label>
+								 <input type="radio" id="pictureTwo" name="size"  value="2-4x6" />
+		  
+								 <label for="pictureThree">5x7 ($10)</label>
+								 <input type="radio" id="pictureThree" name="size" value="5x7" />
+							 </div>
+							<div class="lefttwo">
+								 <label  for="pictureFour">8x10 ($20)</label>
+								 <input type="radio" id="pictureFour" name="size" value="8x10" />
+								 
+								 <label for="pictureFive">11x14 ($30)</label>
+								 <input type="radio" id="pictureFive" name="size" value="11x14" />
+							</div>
+							<div class="lefttwo">
+								 <label id="errorSize" class="error">*Select a size&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+						   </div>
+						   <br /><br class="clearboth" />
+		  
+						   <label for="copies" class="required">Quantity</label>
+						   <input type="text" id="copies" name="copies"  />
+						   <label id="errorPortrait" class="error">*Must be 1-25&nbsp;&nbsp;&nbsp;</label> 
+						   <br class="clearboth" />
+		  
+						   <p><input  class="margin175" type="button" value="Prepare Order" /></p>
+				   </fieldset>
+		  </form>
+		  
+	
+
+		</main>
+
+<!-- *********** footer ************ -->		
+
+		<footer id="footer">
+			<!--<script>displayFooter();</script> -->
+		</footer>
+
+	<script src="CSP.js"></script>
+</body>

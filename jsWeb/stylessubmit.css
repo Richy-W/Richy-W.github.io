@@ -1,0 +1,101 @@
+/*  JavaScript 7th Edition
+    Chapter 6
+    Chapter Case
+
+    Filename: stylesubmit.css
+*/
+
+
+
+   
+/* Order Table Styles */
+
+table#orderTable {
+   margin: 30px 0px 0px 45px;
+   width: 65%;
+   border-collapse: collapse;
+   color: rgb(151, 151, 151);
+   font-size: 16px;
+}
+
+table#orderTable input {
+   font-size: 16px;
+}
+
+form#order input {
+   background-color: transparent;
+   border: none;
+   color: rgb(151, 151, 151);
+}
+
+table#orderTable caption {
+   font-size: 2em;
+   text-align: left;
+   color: rgb(151, 151, 151);
+   font-weight: normal;
+   margin-bottom: 20px;
+}
+
+
+table#orderTable td {
+   height: 20px;
+   vertical-align: top;
+   min-width: 90px;
+}
+
+form#order input#qty {
+   width: 3em;
+}
+
+form#order input#modelName, form#order input#planName {
+   width: 25em;
+}
+
+form#order input {
+   color: rgb(151, 151, 151);
+}
+
+
+table#orderTable tr td:last-of-type input {
+   text-align: right;
+   border: none;
+}
+
+table#orderTable tr:nth-of-type(1) {
+   border-top: 1px solid rgb(151, 151, 151);
+   padding-top: 15px;
+}
+
+table#orderTable tr:nth-of-type(1) td {
+   padding-top: 15px;
+}
+
+table#orderTable tr:nth-of-type(2) td {
+   padding-bottom: 15px;
+}
+
+table#orderTable tr:nth-of-type(2) {
+   border-bottom: 1px solid rgb(151, 151, 151);
+}
+
+table#orderTable tr:nth-of-type(3) td {
+   padding-top: 15px;
+}
+
+table#orderTable tr:nth-of-type(4) td {
+   padding-top: 15px;
+}
+
+table#orderTable tr:nth-of-type(4) td {
+   border-bottom: 4px double rgb(151, 151, 151);
+}
+
+table#orderTable tr:last-of-type td {
+   padding-top: 15px;
+}
+
+table#orderTable td.rightA {
+   text-align: right;
+   padding-right: 10px;
+}
+
