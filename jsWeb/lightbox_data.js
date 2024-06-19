@@ -12,9 +12,9 @@
 let lightboxTitle = "You Are The Best Thing";
 
 // Names of the image files shown in the slideshow
-let imgFiles = ["photo01.jpg", "photo02.jpg", "photo03.jpg", "photo04.jpg",
-                "photo05.jpg", "photo06.jpg", "photo07.jpg", "photo08.jpg",
-                "photo09.jpg", "photo10.jpg", "photo11.jpg", "photo12.jpg"]
+let imgFiles = ["photo01.JPG", "photo02.JPG", "photo03.JPG", "photo04.JPG",
+                "photo05.JPG", "photo06.JPG", "photo07.JPG", "photo08.JPG",
+                "photo09.JPG", "photo10.JPG", "photo11.JPG", "photo12.JPG"]
 
 // Captions associated with each image
 let imgCaptions = new Array(12);
